@@ -1,44 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Montitre</title>
-	<link rel="stylesheet" href="page.css">
-</head>
-<body>
-	<header id="header" class="header">
-		<H1>
-			Collège Technique "Aumôniers du Travail" </br>
-			Enseignement de Promotion Sociale</br>
-		</H1>
-		<ul>
-			<li><a href="page1.htm" >Acceuil</a></li>
-			<li><a href="page2.htm" >Contact</a></li>
-		</ul>
-		
-	</header>
-	<aside class="aside">
-		<h2>Point d'informations</h2>
-		<h3>Fin des inscriptions</h3>
-		<p>
-			20 octobre 2015 16:29 </br>
-			Les inscriptions pour l'année scolaire 2015-2016 sont désormais clôturées.
-		</p>
+<?php
+	require_once('haut.php');
+	require_once('aside.php');
+?>
 
-		<h3>Inscriptions (septembre)</h3>
-		<p>
-			31 août 2015 21:04 </br>
-
-			Désormais, le secrétariat est ouvert de13h30 à 20h30 pour prendre en charge les inscriptions. Attention, il est fermé le mercredi.
-		</p>
-		<h3>Portes ouvertes du vendredi 4 septembre</h3>
-		<p>
-			15 juillet 2015 14:50</br>
-
-			Le vendredi 4 septembre de 17h30 à 20h30, nous organisons une soirée portes ouvertes. Le secrétariat et les enseignants se tiendront à votre disposition pour répondre à toutes vos questions.
-		</p>
-	</aside>
 	<section>
 		<h2>Nous contacter</h2>
 		<article>
@@ -129,8 +93,6 @@
 	</article>		
 </section>
 
-<footer>
-	Par De Guglielmo Roberto  <a href="#header" >Haut de page</a>
-</footer>
-</body>
-</html>
+<?php
+	require_once('bas.php');
+?>
