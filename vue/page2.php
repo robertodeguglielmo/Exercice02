@@ -1,17 +1,13 @@
-<?php
-	require_once('haut.php');
-	require_once('aside.php');
-?>
 
 	<section>
 		<h2>Nous contacter</h2>
 		<article>
 			<h3>Formulaire de contact</h3>
 			<p>
-				<form action="http://10.128.138.70/formulaire/test.php" method="post" accept-charset="utf-8">
+				<form action="../control/form_recept.php" method="post" accept-charset="utf-8">
 					<p> 
 						*Nom :  </br>
-						<input type="text" name="NOM" value="" placeholder="Nom, Prénom" size="50" required>
+						<input type="text" name="NOM" value="" placeholder="Nom, Prénom" size="50">
 					</p>
 					<p> *Email : </br>
 						<input type="email" name="EMAIL" value="" placeholder="Email@monfournisseur.com" size="50" required>
@@ -92,7 +88,45 @@
 		</p>
 	</article>		
 </section>
+<section>
+	<article>
+		<p>
+				<?php
+				$i=1;
+				while ($i <= 10) {
+					echo "Ceci est la ligne N°".$i."</br>";
+					$i++;
+				}
 
-<?php
-	require_once('bas.php');
-?>
+				echo "<ul>";
+				$i=1;
+				while ($i <= 10) {
+					echo "<li>Ceci est la ligne N°".$i."</li>";
+					$i++;
+				}
+				echo "</ul>";
+
+				echo "<table >";
+					echo "<caption>Table dynamique</caption>";
+
+						echo "<tr>";
+							echo "<th>#</th>";
+							echo "<th>Libellé</th>";
+						echo "</tr>";
+				$i=1;
+				while ($i <= 10) {
+					if($i %2 == 0){
+						$coul ="rouge";
+					}else{
+						$coul ="bleu";
+					}
+					echo "<tr class=\"".$coul."\"><td>".$i."</td><td>Ceci est la ligne N°".$i."</td></tr>";
+					$i++;
+				}
+						
+				echo "</table>";
+				?>
+		</p>			
+
+	</article>		
+</section>

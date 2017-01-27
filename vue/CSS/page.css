@@ -82,3 +82,23 @@ h2{
 	width: 50px;
 	
 }
+.rouge{
+	color: red;
+}
+.bleu{
+	color:blue;
+}
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ 
+ }
+td,th { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:black;
+ }
+
+tr:nth-child(even) {background: #CCC;color:blue;}
+tr:nth-child(odd) {background: #FFF;color: red;}

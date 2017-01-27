@@ -1,7 +1,4 @@
-<?php
-	require_once('haut.php');
-	require_once('aside.php');
-?>
+
 	<section>
 		<h2>Nos formations</h2>
 		<article>
@@ -21,10 +18,12 @@
 				Le bachelier en Informatique de gestion est un collaborateur polyvalent qui met en oeuvre la diversité méthodologique des différentes fonctions de l’informaticien en réponse aux besoins des organisations.
 
 				Il participe à l’analyse et à l’étude technique de projets d’informatisation:
-				<ul>
+
+
+
+			</p>
+							<ul>
 					<li>
-
-
 						Il participe à la conception, développe, teste et implémente des solutions intégrant des standards techniques et méthodologiques ainsi que des progiciels existants.
 					</li>
 					<li>
@@ -47,16 +46,13 @@
 					</li>
 				</ul>
 
-
-			</p>
-
 		</article>		
 	</section>
 	<section>
 		<h2>La vie à l'école</h2>
 		<article>
 			<h3>Décès Abbé Vanderus</h3>
-			<img src="images/vanderus.jpg" alt="">
+			<img src="../vue/images/vanderus.jpg" alt="">
 			<p> 
 				Notre Président de PO a tiré sa révérence en ce début de mois de juillet. <br>
 
@@ -65,6 +61,3 @@
 
 		</article>
 	</section>
-<?php
-	require_once('bas.php');
-?>
