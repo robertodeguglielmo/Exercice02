@@ -1,6 +1,6 @@
 
 	<section>
-		<h2>Nos formations</h2>
+		<h2 class="testclass_h2">Nos formations</h2>
 		<article>
 			<h3>Agent valoriste</h3>
 			<p>

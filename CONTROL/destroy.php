@@ -1,5 +1,5 @@
 <?php 
 	session_start();
 	session_destroy() ;
-	require_once('../vue/page1.php');
+	require_once('../control/page1.php');
 ?>
