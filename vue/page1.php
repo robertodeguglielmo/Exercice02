@@ -52,7 +52,8 @@
 		<h2>La vie à l'école</h2>
 		<article>
 			<h3>Décès Abbé Vanderus</h3>
-			<img src="../vue/images/vanderus.jpg" alt="">
+			
+					<img src="../vue/images/vanderus.jpg" alt="">
 			<p> 
 				Notre Président de PO a tiré sa révérence en ce début de mois de juillet. <br>
 
